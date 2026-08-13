@@ -94,7 +94,7 @@ The full walkthrough with EDA and inline explanation is in
 ## Setup
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Hiteshtyagi610/CineMatch
 cd cinematch
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
