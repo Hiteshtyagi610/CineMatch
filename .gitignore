@@ -1,0 +1,22 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+.virtual_documents/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large raw data & trained model artifacts — regenerate with scripts/train_model.py
+data/movies_metadata.csv
+models/*.pkl
+!models/.gitkeep
